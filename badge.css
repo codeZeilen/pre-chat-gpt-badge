@@ -1,16 +1,10 @@
 .prechatgpt::before {
 	background-color: darkgreen;
 	color: white;
-	content: "PRE ChatGPT";
+	content: "pre ChatGPT";
 }
 
-.postchatgpt::before {
-	background-color: grey;
-	color: white;
-	content: "POST ChatGPT";
-}
-
-.postchatgpt::before, .prechatgpt::before {
+.prechatgpt::before {
 	padding: 0.2em;
 	font-variant: small-caps;
 	font-family: sans-serif;
