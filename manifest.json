@@ -1,0 +1,15 @@
+{
+
+  "description": "Adds a badge to all SO questions and answers that have been posted before ChatGPT was released.",
+  "manifest_version": 2,
+  "name": "Pre-ChatGPT",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": ["*://*.stackoverflow.com/*"],
+      "js": ["so-add-badges.js"],
+	  "css": ["badge.css"]
+    }
+  ]
+
+}
